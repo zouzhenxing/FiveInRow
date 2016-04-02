@@ -1,0 +1,45 @@
+.content{
+	width: 900px;
+	height: 600px;
+	margin: auto;
+}
+
+.content .left {
+	width: 298px;
+	height: 600px;
+	border: 1px solid;
+	float: left;
+}
+.content .left ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.content .left li{
+	border: 1px solid;
+	margin: 2px;
+	padding: 2px;
+}
+.content .left .message {
+	width: 280px;
+	height: 220px;
+	overflow: scroll;
+}
+.content .left .online {
+	width: 280px;
+	height: 220px;
+	overflow: scroll;
+}
+
+
+.content .right {
+	width: 600px;
+	height: 600px;
+	float: right;
+}
+.content .right div{
+	width: 148px;
+	height: 148px;
+	border: 1px solid;
+	float: left;
+}
