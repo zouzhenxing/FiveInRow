@@ -1,6 +1,6 @@
 var socket
 $(function(){
-	socket = io('http://127.0.0.1',{"autoConnect":false,"reconnection":false});
+	socket = io('http://localhost',{"autoConnect":false,"reconnection":false});
 	
 	$("#conn").click(function(){
 		if( $(this).val() == "连接" ) {
